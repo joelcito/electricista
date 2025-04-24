@@ -25,8 +25,6 @@ return new class extends Migration
             $table->decimal('consumo_minimo_basico', 12, 2)->nullable();
             $table->decimal('costo_exedente', 12, 2)->nullable();
 
-
-
             $table->string('estado')->nullable();
             $table->datetime('deleted_at')->nullable();
             $table->timestamps();
