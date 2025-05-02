@@ -32,8 +32,7 @@
                     <!--end:Menu link-->
                     <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                            <a class="menu-link {{ Route::currentRouteName() == 'usuario.listado' ? 'active' : '' }}"
-                                href="#">
+                            <a class="menu-link " href="#">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -41,8 +40,7 @@
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link {{ Route::currentRouteName() == 'rol.listado' ? 'active' : '' }}"
-                                href="#">
+                            <a class="menu-link " href="#">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -54,16 +52,16 @@
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Parametros Globales</span>
+                                <span class="menu-title text-white">Costos</span>
                             </a>
                         </div>
+
                         <div class="menu-item">
-                            <a class="menu-link {{ Route::currentRouteName() == 'unidadMedida.listado' ? 'active' : '' }}"
-                                href="{{ url('mes/listado') }}">
+                            <a class="menu-link " href="{{ url('mes/listado') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Generar Mes</span>
+                                <span class="menu-title text-white">Consumos</span>
                             </a>
                         </div>
                         <div class="menu-item">
@@ -71,36 +69,35 @@
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Sucursales</span>
+                                <span class="menu-title text-white">Categorias</span>
                             </a>
                         </div>
+
                         <div class="menu-item">
-                            <a class="menu-link {{ Route::currentRouteName() == 'puntoVenta.listado' ? 'active' : '' }}"
-                                href="#">
+                            <a class="menu-link " href="#">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Punto de ventas</span>
+                                <span class="menu-title text-white">Medidores</span>
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link {{ Route::currentRouteName() == 'productoServicio.listado' ? 'active' : '' }}"
-                                href="#">
+                            <a class="menu-link " href="#">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Productos Servicios</span>
+                                <span class="menu-title text-white">Clientes</span>
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link {{ Route::currentRouteName() == 'producto.listado' ? 'active' : '' }}"
-                                href="#">
+                            <a class="menu-link " href="#">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Productos</span>
+                                <span class="menu-title text-white">Servicios</span>
                             </a>
                         </div>
+                        {{--
                         <div class="menu-item">
                             <a class="menu-link {{ Route::currentRouteName() == 'cliente.listado' ? 'active' : '' }}"
                                 href="#">
@@ -118,7 +115,7 @@
                                 </span>
                                 <span class="menu-title text-white">Url Api Servicios</span>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
