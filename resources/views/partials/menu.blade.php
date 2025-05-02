@@ -50,21 +50,20 @@
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link {{ Route::currentRouteName() == 'proveedor.listado' ? 'active' : '' }}"
-                                href="#">
+                            <a class="menu-link" href="{{ url('parametro_global/listado') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Proveedores</span>
+                                <span class="menu-title text-white">Parametros Globales</span>
                             </a>
                         </div>
                         <div class="menu-item">
                             <a class="menu-link {{ Route::currentRouteName() == 'unidadMedida.listado' ? 'active' : '' }}"
-                                href="#">
+                                href="{{ url('mes/listado') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title text-white">Unidad de Medidas</span>
+                                <span class="menu-title text-white">Generar Mes</span>
                             </a>
                         </div>
                         <div class="menu-item">
