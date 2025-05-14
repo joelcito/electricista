@@ -48,7 +48,7 @@
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link" href="{{ url('parametro_global/listado') }}">
+                            <a class="menu-link" href="{{ url('costo/listado') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -57,7 +57,7 @@
                         </div>
 
                         <div class="menu-item">
-                            <a class="menu-link " href="{{ url('mes/listado') }}">
+                            <a class="menu-link " href="{{ url('consumo/listado') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -65,7 +65,7 @@
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link" href="{{ url('sucursal/listado') }}">
+                            <a class="menu-link" href="{{ url('categoria/listado') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -82,7 +82,7 @@
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link " href="#">
+                            <a class="menu-link " href="{{ url('cliente/listado') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -139,6 +139,14 @@
                                 <span class="menu-title text-white">Formulario Facturacion</span>
                             </a>
                         </div>
+                        {{-- <div class="menu-item">
+                            <a class="menu-link" href="{{ url('lectura/listado') }}">
+                                <span class="menu-bullet">
+                                    <span class="bullet bullet-dot"></span>
+                                </span>
+                                <span class="menu-title text-white">Lectura</span>
+                            </a>
+                        </div> --}}
                         {{-- <div class="menu-item">
                             <a class="menu-link" href="{{ url('factura/listado') }}">
                                 <span class="menu-bullet">
